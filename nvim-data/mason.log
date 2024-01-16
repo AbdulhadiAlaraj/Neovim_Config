@@ -1,0 +1,45 @@
+[ERROR 1/13/2024 2:40:28 AM] ...al/nvim-data/lazy/mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"stylua\"".
+[ERROR 1/13/2024 2:42:19 AM] ...al/nvim-data/lazy/mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"stylua\"".
+[ERROR 1/13/2024 2:43:57 AM] ...al/nvim-data/lazy/mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"stylua\"".
+[ERROR 1/13/2024 2:46:40 AM] ...al/nvim-data/lazy/mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"stylua\"".
+[ERROR 1/13/2024 2:47:12 AM] ...al/nvim-data/lazy/mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"stylua\"".
+[ERROR 1/13/2024 2:49:28 AM] ...al/nvim-data/lazy/mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"stylua\"".
+[ERROR 1/13/2024 2:50:49 AM] ...al/nvim-data/lazy/mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"stylua\"".
+[INFO  1/13/2024 8:58:23 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=typescript-language-server) {}
+[INFO  1/13/2024 8:58:23 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=rust-analyzer) {}
+[INFO  1/13/2024 8:58:28 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=rust-analyzer)
+[INFO  1/13/2024 8:58:29 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=typescript-language-server)
+[INFO  1/13/2024 9:11:08 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
+[INFO  1/13/2024 9:11:16 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=pyright)
+[INFO  1/13/2024 11:18:48 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=jedi-language-server) {}
+[INFO  1/13/2024 11:18:58 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=jedi-language-server)
+[INFO  1/13/2024 11:21:52 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=jedi-language-server) {}
+[ERROR 1/13/2024 11:21:52 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=jedi-language-server) error='...\\site\\pack\\packer\\start\\mason.nvim/lua/mason-core/fs.lua:53: rmrf: Could not remove directory "C:\\\\Users\\\\Perseus\\\\AppData\\\\Local\\\\nvim-data\\\\mason\\\\packages\\\\jedi-language-server".'
+[INFO  1/13/2024 11:23:31 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
+[INFO  1/13/2024 11:23:37 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=pyright)
+[INFO  1/13/2024 11:37:42 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=python-lsp-server) {}
+[INFO  1/13/2024 11:37:58 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=python-lsp-server)
+[INFO  1/13/2024 11:40:15 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
+[INFO  1/13/2024 11:40:21 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=pyright)
+[ERROR 1/14/2024 6:58:47 PM] ...on-lspconfig.nvim/lua/mason-lspconfig/lspconfig_hook.lua:84: Failed to expand cmd path pyright { "pyright-langserver", "--stdio" }
+[INFO  1/14/2024 6:59:32 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pylyzer) {}
+[ERROR 1/14/2024 6:59:32 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=pylyzer) error=spawn: cargo failed with exit code - and signal -. cargo is not executable
+[INFO  1/14/2024 7:03:25 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
+[ERROR 1/14/2024 7:03:26 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=pyright) error="Installation was aborted."
+[INFO  1/14/2024 7:03:29 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
+[ERROR 1/14/2024 7:04:14 PM] ...rt\mason.nvim/lua/mason-core/installer/registry/init.lua:186: Failed to download schemas Package(name=pyright) Schema download timed out.
+[INFO  1/14/2024 7:04:14 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=pyright)
+[INFO  1/14/2024 7:04:33 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pylyzer) {}
+[ERROR 1/14/2024 7:04:33 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=pylyzer) error=spawn: cargo failed with exit code - and signal -. cargo is not executable
+[INFO  1/14/2024 7:05:13 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
+[INFO  1/14/2024 7:05:24 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=pyright)
+[INFO  1/14/2024 7:10:32 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pylyzer) {}
+[ERROR 1/14/2024 7:11:36 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=pylyzer) error="Installation was aborted."
+[INFO  1/14/2024 7:12:35 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=mutt-language-server) {}
+[INFO  1/14/2024 7:12:47 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=mutt-language-server)
+[INFO  1/14/2024 7:13:43 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
+[INFO  1/14/2024 7:13:48 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=pyright)
+[INFO  1/14/2024 7:14:32 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=mutt-language-server) {}
+[INFO  1/14/2024 7:14:38 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=mutt-language-server)
+[INFO  1/14/2024 7:15:25 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
+[INFO  1/14/2024 7:15:29 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=pyright)

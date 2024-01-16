@@ -1,0 +1,1180 @@
+[ERROR 1/13/2024 2:40:29 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:40:39 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:40:44 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+[ERROR 1/13/2024 2:40:44 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+[ERROR 1/13/2024 2:42:31 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:42:36 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:42:41 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:42:47 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+[ERROR 1/13/2024 2:42:47 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:42:48 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+[ERROR 1/13/2024 2:42:49 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:257: in function <...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/setup/init.lua:248>
+[ERROR 1/13/2024 2:42:58 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:709: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:43:57 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'markdown': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\markdown.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:46:40 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:47:12 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'json': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\json.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:47:21 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:47:42 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:49:11 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'markdown': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\markdown.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:49:28 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:49:41 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:49:45 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:49:49 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:50:49 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:51:05 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'markdown': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\markdown.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+[ERROR 1/13/2024 2:51:37 AM] ...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:722: Error opening file: vim/_editor.lua:341: nvim_exec2()..BufReadPost Autocommands for "*": Vim(append):Error executing lua callback: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: Error executing lua: C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: nvim_exec2()..BufReadPost Autocommands for "*"..FileType Autocommands for "*": Vim(append):Error executing lua callback: Failed to load parser for language 'lua': uv_dlopen: C:\Users\Perseus\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so is not a valid Win32 application.
+
+stack traceback:
+	[C]: in function '_ts_add_language'
+	...eovim/share/nvim/runtime/lua/vim/treesitter/language.lua:98: in function 'add'
+	...m/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:98: in function 'new'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:61: in function '_create_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:131: in function 'get_parser'
+	...m Files/Neovim/share/nvim/runtime/lua/vim/treesitter.lua:459: in function 'start'
+	...a/lazy/nvim-treesitter/lua/nvim-treesitter/highlight.lua:20: in function 'attach'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:509: in function 'attach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:532: in function 'reattach_module'
+	...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:133: in function <...ata/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_cmd'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:25: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24>
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
+stack traceback:
+	[C]: in function 'nvim_buf_call'
+	C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:24: in function <C:/Program Files/Neovim/share/nvim/runtime/filetype.lua:10>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua:341: in function <vim/_editor.lua:337>
+	[C]: in function 'pcall'
+	...nvim-data/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:714: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:729: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:751: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:760: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:184: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:183>
