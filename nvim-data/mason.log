@@ -43,3 +43,21 @@
 [INFO  1/14/2024 7:14:38 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=mutt-language-server)
 [INFO  1/14/2024 7:15:25 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
 [INFO  1/14/2024 7:15:29 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=pyright)
+[INFO  1/17/2024 10:11:28 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) Package(name=pyright)
+[INFO  1/17/2024 10:11:28 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=rust-analyzer) Package(name=rust-analyzer)
+[INFO  1/17/2024 10:12:06 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=pyright)
+[INFO  1/17/2024 10:12:09 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=rust-analyzer)
+[INFO  1/17/2024 10:47:29 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=codelldb) {}
+[INFO  1/17/2024 10:47:36 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=cpptools) {}
+[INFO  1/17/2024 10:47:42 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=codelldb)
+[INFO  1/17/2024 10:47:47 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[INFO  1/17/2024 10:47:50 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=lua-language-server)
+[INFO  1/17/2024 10:47:59 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=cpptools)
+[INFO  1/17/2024 10:48:16 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=luaformatter) {}
+[ERROR 1/17/2024 10:48:29 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=luaformatter) error='Tried to link bin "lua-format" to non-existent target "bin\\\\lua-format.bat".'
+[INFO  1/17/2024 10:56:22 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=rust-analyzer) {}
+[INFO  1/17/2024 10:56:33 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=rust-analyzer)
+[INFO  1/19/2024 3:06:52 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=docker-compose-language-service) {}
+[INFO  1/19/2024 3:06:54 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=dockerfile-language-server) {}
+[INFO  1/19/2024 3:07:00 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=docker-compose-language-service)
+[INFO  1/19/2024 3:07:01 PM] ...acker\start\mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=dockerfile-language-server)

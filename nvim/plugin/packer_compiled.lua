@@ -95,6 +95,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  codelldb = {
+    loaded = true,
+    path = "C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\codelldb",
+    url = "https://github.com/vadimcn/codelldb"
+  },
   harpoon = {
     loaded = true,
     path = "C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
@@ -144,6 +149,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["rust-tools.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rust-tools.nvim",
+    url = "https://github.com/simrat39/rust-tools.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

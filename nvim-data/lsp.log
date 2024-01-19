@@ -8,3 +8,41 @@
 [START][2024-01-14 19:22:57] LSP logging initiated
 [ERROR][2024-01-14 19:22:57] ...lsp/handlers.lua:535	'Enumeration of workspace source files is taking longer than 10 seconds.\nThis may be because:\n* You have opened your home directory or entire hard drive as a workspace\n* Your workspace contains a very large number of directories and files\n* Your workspace contains a symlink to a directory with many files\n* Your workspace is remote, and file enumeration is slow\nTo reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.'
 [ERROR][2024-01-14 19:23:13] ...lsp/handlers.lua:535	'Enumeration of workspace source files is taking longer than 10 seconds.\nThis may be because:\n* You have opened your home directory or entire hard drive as a workspace\n* Your workspace contains a very large number of directories and files\n* Your workspace contains a symlink to a directory with many files\n* Your workspace is remote, and file enumeration is slow\nTo reduce this time, open a workspace directory with fewer files or add a pyrightconfig.json configuration file with an "exclude" section to exclude subdirectories from your workspace. For more details, refer to https://github.com/microsoft/pyright/blob/main/docs/configuration.md.'
+[START][2024-01-17 23:00:34] LSP logging initiated
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"thread 'notify-rs windows loop' panicked at crates\\vfs-notify\\src\\lib.rs:96:64:\ncalled `Result::unwrap()` on an `Err` value: \"SendError(..)\"\nstack backtrace:\n"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"   0: std::panicking::begin_panic_handler\n             at /rustc/82e1608dfa6e0b5569232559e3d385fea5a93112/library\\std\\src\\panicking.rs:"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"645\n   1: core::panicking::panic_fmt\n             at /rustc/82e1608dfa6e0b5569232559e3d385fea5a93112/library\\core\\src\\panicking.rs:72\n"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"   2: core::result::unwrap_failed\n             at /rustc/82e1608dfa6e0b5569232559e3d385fea5a93112/library\\core\\src\\result.rs:1653\n"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"   3: <"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"F as notify::EventHandler>::handle_event\n"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"   4: "
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"notify::windows::ReadDirectoryChangesServer::run\n"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"   5: notify::windows::"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"ReadDirectoryChangesServer::run\n"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"   "
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"6: KiUserApcDispatcher\n   7: ZwWaitForSingleObject\n"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"   8: "
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"WaitForSingleObjectEx\n"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"   9: notify::windows"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"::ReadDirectoryChangesServer::run\n"
+[ERROR][2024-01-17 23:00:34] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	"note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.\n"
+[WARN][2024-01-17 23:01:00] .../lua/vim/lsp.lua:1636	"buf_attach_client called on unloaded buffer (id: 5): "
+[START][2024-01-17 23:34:16] LSP logging initiated
+[WARN][2024-01-17 23:34:16] .../lua/vim/lsp.lua:1636	"buf_attach_client called on unloaded buffer (id: 5): "
+[START][2024-01-17 23:35:21] LSP logging initiated
+[WARN][2024-01-17 23:35:21] .../lua/vim/lsp.lua:1636	"buf_attach_client called on unloaded buffer (id: 5): "
+[START][2024-01-17 23:48:12] LSP logging initiated
+[WARN][2024-01-17 23:48:12] .../lua/vim/lsp.lua:1636	"buf_attach_client called on unloaded buffer (id: 5): "
+[START][2024-01-19 15:07:23] LSP logging initiated
+[WARN][2024-01-19 15:07:23] ...lsp/handlers.lua:137	"The language server dockerls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2024-01-19 15:07:40] LSP logging initiated
+[WARN][2024-01-19 15:07:40] ...lsp/handlers.lua:137	"The language server dockerls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2024-01-19 15:13:03] LSP logging initiated
+[WARN][2024-01-19 15:13:03] ...lsp/handlers.lua:137	"The language server dockerls triggers a registerCapability handler despite dynamicRegistration set to false. Report upstream, this warning is harmless"
+[START][2024-01-19 15:21:30] LSP logging initiated
+[WARN][2024-01-19 15:21:30] .../lua/vim/lsp.lua:1636	"buf_attach_client called on unloaded buffer (id: 7): "
+[START][2024-01-19 15:23:17] LSP logging initiated
+[WARN][2024-01-19 15:23:17] .../lua/vim/lsp.lua:1636	"buf_attach_client called on unloaded buffer (id: 5): "
+[START][2024-01-19 21:32:01] LSP logging initiated
+[ERROR][2024-01-19 21:32:01] .../vim/lsp/rpc.lua:734	"rpc"	"C:\\Users\\Perseus\\AppData\\Local\\nvim-data\\mason\\bin\\rust-analyzer.CMD"	"stderr"	'[ERROR rust_analyzer::dispatch] unknown request: Request { id: RequestId(I32(111)), method: "workspace/executeCommand", params: Object {"title": String("triggerParameterHints"), "command": String("rust-analyzer.triggerParameterHints")} }\n'
+[WARN][2024-01-19 21:36:38] .../lua/vim/lsp.lua:1636	"buf_attach_client called on unloaded buffer (id: 5): "

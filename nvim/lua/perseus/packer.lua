@@ -8,14 +8,14 @@ return require('packer').startup(function(use)
 		  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use({ 
-		  "catppuccin/nvim", 
+  use({
+		  "catppuccin/nvim",
 		  as = "catppuccin",
 		  config = function()
 				  vim.cmd('colorscheme catppuccin')
 		  end
   })
- 
+
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
   use('mbbill/undotree')
@@ -44,5 +44,8 @@ return require('packer').startup(function(use)
 				  {'L3MON4D3/LuaSnip'},
 		  }
   }
+
+  use('vadimcn/codelldb')
+  use('simrat39/rust-tools.nvim')
 
 end)
